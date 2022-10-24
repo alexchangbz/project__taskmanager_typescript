@@ -1,0 +1,33 @@
+.pagination {
+    list-style: none;
+    display: flex;
+    margin: 1rem 0;
+}
+
+.pagination li input {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    text-align: center;
+    outline: 2px solid var(--color-white);
+    margin: 0 0.5rem;
+}
+
+.pagination li input.active {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+    font-weight: 700;
+}
+
+.pagination input:hover {
+    cursor: pointer;
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+}
+
+.pagination input {
+    background-color: transparent;
+    border: 2px solid var(--color-secondary);
+    color: var(--color-secondary);
+    font-weight: 700;
+}

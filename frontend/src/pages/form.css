@@ -1,0 +1,68 @@
+.form__container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.form__container label {
+    text-align: left;
+    margin: 1rem 0;
+}
+
+.form__container input {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+.form__container button {
+    background-color: var(--color-primary);
+    outline: none;
+    border: none;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-light);
+    transition: all 0.2s ease-in-out;
+}
+
+.form__container button:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: var(--color-primary);
+    outline: 2px solid var(--color-primary);
+}
+
+.subtaskform__container a {
+    text-decoration: none;
+    display: block;
+    width: 10rem;
+    margin: 1rem;
+    font-weight: 600;
+    color: var(--color-primary);
+}
+
+.subtaskform__container .back-btn {
+    text-decoration: none;
+    display: block;
+    width: 10rem;
+    margin: 1rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.subtaskform__container a:hover {
+    text-decoration: underline;
+}
+
+.subtaskform__container .back-btn:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

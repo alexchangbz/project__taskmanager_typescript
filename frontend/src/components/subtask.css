@@ -1,0 +1,102 @@
+.subtask__container {
+    background-color: var(--color-light);
+    margin: 1rem 0;
+    padding: 0.7rem ;
+    display: flex;
+    border-radius: 0.3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subtask__container p, .subtask__container h3 {
+    margin: 0;
+    text-align: left;
+}
+
+.subtask__container p {
+    font-size: 0.7rem;
+    margin: 0.2rem 0;
+}
+
+.subtask__container h3 {
+    font-weight: 600;
+}
+
+.subtask__container .btn-status-info {
+    cursor: pointer;
+    background-color: var(--color-info);
+    color: var(--color-white);
+    padding: 0.5rem 1rem;
+    margin: 0 0.2rem;
+    border-radius: 0.3rem;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.subtask__container .btn-status-info:hover {
+    background-color: transparent;
+    outline: 2px solid var(--color-info);
+    color: var(--color-info);
+}
+
+.subtask__container .btn-delete {
+    cursor: pointer;
+    background-color: var(--color-danger);
+    color: var(--color-white);
+    padding: 0.5rem 1rem;
+    margin: 0 0.2rem;
+    border-radius: 0.3rem;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.subtask__container .btn-delete:hover {
+    background-color: transparent;
+    outline: 2px solid var(--color-danger);
+    color: var(--color-danger);
+}
+
+.subtask__container .btn-status-edit {
+    cursor: pointer;
+    background-color: var(--color-alert);
+    color: var(--color-white);
+    padding: 0.5rem 1rem;
+    margin: 0 0.2rem;
+    border-radius: 0.3rem;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.subtask__container .btn-status-edit:hover {
+    background-color: transparent;
+    outline: 2px solid var(--color-alert);
+    color: var(--color-alert);
+}
+
+.subtask__container .btn-status-success {
+    cursor: pointer;
+    background-color: var(--color-success);
+    color: var(--color-white);
+    padding: 0.5rem 1rem;
+    margin: 0 0.2rem;
+    border-radius: 0.3rem;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.subtask__container .btn-status-success:hover {
+    background-color: transparent;
+    outline: 2px solid var(--color-success);
+    color: var(--color-success);
+}
+
