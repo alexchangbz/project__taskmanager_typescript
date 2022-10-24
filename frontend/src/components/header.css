@@ -20,6 +20,7 @@
     display: flex;
     list-style: none;
     margin: 0;
+    padding: 0;
 }
 
 .header ul li a {
@@ -34,4 +35,18 @@
 
 .header ul li a:hover {
     color: var(--color-secondary);
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .header .brand {
+        margin-left: 0;
+    }
+
+    .header ul li a {
+        margin: 0;
+    }
 }

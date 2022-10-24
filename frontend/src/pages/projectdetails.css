@@ -98,3 +98,32 @@
 .subtasks__container .btn-alert:hover {
     cursor: pointer;
 }
+
+@media only screen and (max-width: 800px) {
+    .subtasks__container {
+        margin: 1rem 0;
+    }
+
+    .project__info {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    .project__info-text .project__info-id {
+        width: auto;
+        padding: 0.7rem;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .filter__container {
+        flex-direction: column;
+    }
+
+    .filter__container button.btn-alert {
+        margin: 0.3rem 0;
+    }
+
+}
